@@ -10,6 +10,7 @@ function makeButtons () {
     a.addClass("gif");
     a.attr("data-name", reactions[i]);
     a.addClass("reactionClass")
+    a.addClass("btn btn-outline-success")
     a.text(reactions[i])
     $("#button-locale").append(a);
   }
@@ -46,8 +47,9 @@ $(document.body).on("click", ".reactionClass", function() {
         var p = $("<p>").text("Rating: " + rating);
         //var favorite = $("<button>").text("Favorite").attr("id", "favorite")
         var gifImage = $("<img>");
+        gifImage.addClass("col")
+        gifImage.addClass("theGifs")
         gifImage.attr("src", results[i].images.fixed_height.url);
-        gifImage.attr("display", "inline-block")
 
         //gifDiv.prepend(favorite)
         gifDiv.prepend(p);
