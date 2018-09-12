@@ -1,1 +1,3 @@
 # gif-project
+
+This app was a project completed in September 2018 in order to demonstrate understanding of basic jQuery and javascript concepts such as jQuery syntax, click events, and API interaction. Each time the page is loaded it displays three pre-chosen reaction categories to load gifs from the giphy API. Users are able to add their own categories as buttons to the page to search for other reactions as well. https://hayleyhartman.github.io/bootstrap-portfolio/
